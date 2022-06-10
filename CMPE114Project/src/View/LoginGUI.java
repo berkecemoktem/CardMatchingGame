@@ -72,6 +72,7 @@ public class LoginGUI extends JFrame {
 	
 	
 	public LoginGUI() {
+		setResizable(false);
 		UserController userController = new UserController();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 302, 550);
@@ -135,7 +136,7 @@ public class LoginGUI extends JFrame {
 		contentPane.add(txtHowToPlay);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\oktem\\Desktop\\loginPage.jpg"));
+		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\oktem\\Desktop\\JavaProjects\\CMPE114Project\\dist\\loginPage.jpg"));
 		lblNewLabel.setBounds(0, 0, 300, 513);
 		contentPane.add(lblNewLabel);
 		

@@ -61,7 +61,7 @@ public class Board extends JFrame{
 		//setting the ids of cards(we have 20 cards in the end).
 		for (int v : cardValues){
 			Card c = new Card();
-			c.setBackground(Color.WHITE);
+			c.setBackground(Color.BLUE);
 			c.setForeground(Color.YELLOW);
 			c.setFont(new Font("Arial", Font.PLAIN, 60));
 			c.setId(v);
